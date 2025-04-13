@@ -1,3 +1,5 @@
+# This is only for Education Purposes and Should not only rely on single information before investing
+
 # 📈 AI Stock Market Prediction & Analysis App
 
 This Streamlit-based AI application allows users to predict stock prices, analyze technical indicators, detect chart patterns, and access real-time financial news — all powered by LSTM deep learning models, Gemini chatbot integration, and edge detection via computer vision.
@@ -89,5 +91,7 @@ Model expects 60 timesteps with features like OHLC, volume, RSI, etc.
 
 
 🛡️ Disclaimer
-This project is for educational/demo purposes only and should not be used for real financial decisions. Predictions are based on historical patterns and do not guarantee future performance.
+This project is for educational purposes and should invest only after studying the investment terms and all. We are not Responsible for any losses 
+'''
+##
 
