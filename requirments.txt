@@ -1,0 +1,12 @@
+streamlit
+yfinance
+pandas
+pandas-ta
+plotly
+tensorflow
+scikit-learn
+opencv-python
+matplotlib
+Pillow
+google-generativeai
+requests
