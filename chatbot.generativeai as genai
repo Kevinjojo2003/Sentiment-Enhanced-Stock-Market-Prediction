@@ -1,0 +1,12 @@
+import google.generativeai as genai
+
+genai.configure(api_key="AIzaSyBLYNHfjHzPhnnUHp4Pq86prmEug2lvkDU")
+
+def get_chatbot_response(prompt):
+    try:
+        # ✅ Use working model name
+        model = genai.GenerativeModel("models/gemini-1.5-pro")
+        response = model.generate_content(prompt)
+        return response.text
+    except Exception as e:
+        return f"❌ Gemini API Error: {e}"
